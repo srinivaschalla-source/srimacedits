@@ -13,3 +13,6 @@ Task 3:
 
 Functionality of the programme is to take input of an integer and print whether the entered integer is odd or even as per the given format. 
 
+Task 4:
+
+Functionality of the programme is to iterate 50 times and print the sum of all the numbers from 1 to 50 in the given format. 
