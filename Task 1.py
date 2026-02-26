@@ -1,9 +1,15 @@
-#Programme for taking input of an integer and finding and printing whether  it is even or odd number in the given format.
-# step 1 Taking input of an integer in a variable x---Takes an integer input from the user.
-x=int(input("Enter an integer: "))
-# step 2 -Checks whether the number is even or odd using an if-else statement.Conditional verification using MOD operator if the entered value is divisible by 2 or not and if remainder is 0, printing it as even number else as odd number
-if x%2==0:
-# step 3---Displays the result accordingly.
-    print(f"{x} is an Even number")
+# This is a programme for calculating and printing Factorial of a number which is taken as an input by using the Recursion method.
+#Define a function using recursion for finding the factorial of any number
+def factorial_recursive(num):
+    res=1
+    if num>1:
+        return num*factorial_recursive(num-1)
+    else:
+        return 1
+#Take the input as any number, convert it to integer and if it is not zero or negative calculate factorial and print it else convey message.
+n=int(input("Enter a numer : "))
+if n>1:
+    x=factorial_recursive(n)
+    print(f"The factorial of {n} is: {x}")
 else:
-    print(f"{x} is an Odd number")
+    print("There cannot be factorial for negative numbers or ZERO")

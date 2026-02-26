@@ -1,9 +1,13 @@
-# Programme for using  loop function for iterating numbers from 1 to 50 and adding them and printing the sum of all the numbers in the given format.
-# Taking a dummy varibale for storing the total sum-Total_sum
-Total_sum=0
-#  step 1--- Uses a for loop to iterate over numbers from 1 to 50.Iterating 50 times using range function by adding the value of x from 1 to 50 to the already taken variable Total_sum
-for x in range(1,51):
-#2.   Calculates the sum of all integers in this range.
-    Total_sum=Total_sum+x
-# Printing the total sum of the range. Displays the final sum.
-print(f"The sum of numbers from 1 to 50 is : {Total_sum}")
+#Programme for taking a number as input and importing math module and to calculate square root, natural logarithm and sine of the number in radians and printng the results of the same. 
+#import math module
+import math
+# Take a number as input
+number=(input("Enter a number : "))
+#convert the number to float for calculation purpose and save it in a new variable
+number_float=float(number)
+# Use the functions in math module for calculating the square root, logarithm to base  e and sine of the number in radians. 
+square_root=math.sqrt(number_float)
+log=math.log(number_float)
+sine=math.sin(number_float)
+#Print the result in the given format.
+print(f"The square of {number} is {square_root}\nThe logarithm of {number} is {log}\nThe sine of {number} is {sine}.")
