@@ -1,23 +1,24 @@
+ASSIGNMENT 4:
 
 Task 1:
 
 Project title:
 ----------------
-Factorial of a number 
+Read a File and Handle Errors
 
 Description:
 -------------
-Factorial of a given number N is N*(N-1)*(N-2)*(N-3)..... till it reaches 1. The product gives us the Factorial of a number. In this programme recursion method is used to calculate the factorial of the numbner taken as an input.
-
-Functionality of the programme is to take input of any number and print print the factorial of that number as per the given format. 
+To read a text file in python and handling the exception gracefully.
+For correct verification of the programme, two scenarios can be tested one with existing sample.txt file and other with no existing sample.txt file.
+The programme opens and reads a text file named sample.txt. Prints its content line by line. Handles errors gracefully if the file does not exist.
 
 Task 2:
 
 Project title:
 ----------------
-Using Math module for calculations.
-
+Write and Append Data to a File
 
 Description:
 -------------
-The inbuilt math module in python is imported and several functions in the module like squareroot, logarithm and sine functions are used in the function. A number is taken as input and the concerned values are printed in the given format. 
+Takes user input and writes it to a file named output.txt using write function in python.
+Appends additional data to the same file using append mode. Opens the file in read mode and Reads and displays the final content of the file.
