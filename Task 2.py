@@ -1,13 +1,18 @@
-#Programme for taking a number as input and importing math module and to calculate square root, natural logarithm and sine of the number in radians and printng the results of the same. 
-#import math module
-import math
-# Take a number as input
-number=(input("Enter a number : "))
-#convert the number to float for calculation purpose and save it in a new variable
-number_float=float(number)
-# Use the functions in math module for calculating the square root, logarithm to base  e and sine of the number in radians. 
-square_root=math.sqrt(number_float)
-log=math.log(number_float)
-sine=math.sin(number_float)
-#Print the result in the given format.
-print(f"The square of {number} is {square_root}\nThe logarithm of {number} is {log}\nThe sine of {number} is {sine}.")
+
+#Taking user input and writing it to a file named Output.txt
+Data=input("Enter text to write to the file : ")
+#writing a file with input text in w mode.
+with open('output.txt','w') as fh:
+    fh.write(Data)
+print("Data successfully written to the output.txt file.")
+#taking additional data as input and appending the same to text file.
+Data1=input("Enter additional text to append: ")
+with open('output.txt','a') as fh:
+    fh.write("\n" + Data1)
+print("Data successfully appended. ")
+#opening the file in read mode and using readlines function printing the output of the file line by line.
+with open('output.txt','r') as fh:
+    Data3=fh.readlines()
+print("Final content of the output.txt")
+for line in Data3:
+    print(line.strip())
