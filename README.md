@@ -9,10 +9,14 @@ PROJECT TITLE:
 **************
  Create a Dictionary of Student Marks & Fetching students marks in the dictionary.
 
+
+
 DESCRIPTION:
 ************
 
 This is a program for creating a Dictionary of Student marks and to retrieve the marks based on input students name from the dictionary. If students name is not found, giving an appropriate message. Here the concepts like creating a dictonary, keys, values are tested. 
+
+
 
 TASK 2:
 ________________
@@ -20,6 +24,8 @@ ________________
 PROJECT TITLE:
 **************
  DEMONSTRATING LIST SLICING.
+
+ 
 
 DESCRIPTION:
 ************
