@@ -1,24 +1,23 @@
-ASSIGNMENT 4:
+ASSIGNMENT 5:
 
 Task 1:
 
 Project title:
 ----------------
-Read a File and Handle Errors
+Create a Dictionary of Student Marks and retrieve marks by calling students name.
 
 Description:
 -------------
-To read a text file in python and handling the exception gracefully.
-For correct verification of the programme, two scenarios can be tested one with existing sample.txt file and other with no existing sample.txt file.
-The programme opens and reads a text file named sample.txt. Prints its content line by line. Handles errors gracefully if the file does not exist.
+TO create a dictionary of students with marks. Taking input of the student name and searching dictionary for name and fetching marks if name is present else giving a message that student details not found. Here matching the keys and values of the dictionary and printing the values of the keys is key concept. 
+
 
 Task 2:
 
 Project title:
 ----------------
-Write and Append Data to a File
+Demonstrate List Slicing 
+
 
 Description:
 -------------
-Takes user input and writes it to a file named output.txt using write function in python.
-Appends additional data to the same file using append mode. Opens the file in read mode and Reads and displays the final content of the file.
+The program creates a list of numbers from 1 to 10. It extracts the first 5 elements of the list into a seperate list and prints the same. It Reverses the extracted list using reverse function and changes the extracted list with reversed list and prints the same. The concepts like list slicing, reverse function, printing of the list using indexing are understood. 
